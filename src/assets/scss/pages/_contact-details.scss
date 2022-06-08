@@ -1,0 +1,29 @@
+.contact-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+    // :last-child {
+    //     margin-top: 20px;
+    // }
+    .contact-img {
+        width: 50%;
+        margin-right: 50px;
+    }
+
+    .contact-info {
+        p {
+        font-size: 20px;
+        padding: 10px;
+        line-height: 1.5em;
+        }
+    }
+
+    @include for-mobile-layout() {
+        flex-direction: column;
+    }
+}

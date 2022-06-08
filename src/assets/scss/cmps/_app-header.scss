@@ -1,0 +1,31 @@
+.app-header {
+    background: #69bac0;
+    section.container {
+        display: flex;
+        align-items: center;
+        .logo {
+            // @include quotes
+            flex-grow: 1;
+        }
+        .logo:hover {
+            text-decoration: none;
+        }
+        .logo.active {
+            color: initial;
+        }
+        .back-container {
+            flex-grow: 1;
+        }
+        nav {
+            a:not(:last-child) {
+                margin-right: 20px;
+            }
+
+            // a:is(.active, .my-active) {
+            //     color: red;
+            // }
+            
+            
+        }
+    }
+}

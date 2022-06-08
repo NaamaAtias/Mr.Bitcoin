@@ -1,0 +1,55 @@
+.contact-preview {
+    background: #98e5da52;
+    box-shadow: 0 0 3px #0000002b;
+    border-radius: 0.25em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    cursor: pointer;
+    .info {
+        padding: 10px;
+        flex-grow: 1;
+        // text-align: center;
+        align-items: center;
+        // h3 {
+            // font-size: 0.95em;
+        // }
+        text-decoration: none;
+        font-size: 18px;
+        .avatar {
+            height: 35px;
+            width: 35px;
+            margin-right: 10px;
+        }
+    }
+
+    .actions {
+        flex-basis: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 15px;
+        padding: 20px;
+        // background-color: #000000c9;
+        transform: translateY(100%);
+        transition: transform .2s;
+        a {
+            color: $clr2;
+        }
+        .fa-solid {
+            color: $clr2;
+            font-size: 18px;
+        }
+
+        
+    }
+    
+    &:hover .actions {
+        transform: translateY(0);
+    }
+
+}

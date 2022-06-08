@@ -1,0 +1,22 @@
+.contact-edit {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    form {
+        width: 70%;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        > label {
+            margin-top: 20px;
+        }
+
+        button:last-child {
+            margin-top: 50px;
+        }
+    }
+}

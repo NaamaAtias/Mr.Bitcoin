@@ -1,0 +1,14 @@
+.contact-filter {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    @include for-mobile-layout() {
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+}
+.search-header {
+    padding-top:40px;
+    padding-bottom: 0px;
+}
