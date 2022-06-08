@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Mr.Bitcoin/static/css/main.8df566de.css",
+    "main.js": "/Mr.Bitcoin/static/js/main.26963512.js",
+    "static/js/787.c72713e4.chunk.js": "/Mr.Bitcoin/static/js/787.c72713e4.chunk.js",
+    "static/media/Rajdhani-Regular.ttf": "/Mr.Bitcoin/static/media/Rajdhani-Regular.955ad2c739164f2b01b6.ttf",
+    "static/media/background2.jpg": "/Mr.Bitcoin/static/media/background2.1b2579ec207ba81db7d3.jpg",
+    "index.html": "/Mr.Bitcoin/index.html",
+    "main.8df566de.css.map": "/Mr.Bitcoin/static/css/main.8df566de.css.map",
+    "main.26963512.js.map": "/Mr.Bitcoin/static/js/main.26963512.js.map",
+    "787.c72713e4.chunk.js.map": "/Mr.Bitcoin/static/js/787.c72713e4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8df566de.css",
+    "static/js/main.26963512.js"
+  ]
+}
